@@ -28,7 +28,7 @@ external_links = [
     {
         "name": "知行合一",
         "url": "https://www.aceact.com",
-        "brief": " "
+        "brief": "项目管理学习笔记"
     }
 ]
 nav = [
