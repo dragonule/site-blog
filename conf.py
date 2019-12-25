@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "https://www.aceact.com"
+site_prefix = "https://blog.aceact.com"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
