@@ -28,7 +28,7 @@ external_links = [
     {
         "name": "项目管理随笔",
         "url": "https://www.aceact.com",
-        "brief": "个人博客。"
+        "brief": " "
     }
 ]
 nav = [
@@ -52,17 +52,17 @@ nav = [
 social_links = [
     {
         "name": "Twitter",
-        "url": "https://twitter.com/AlanDecode",
+        "url": "https://twitter.com/imxiaolong",
         "icon": "gi gi-twitter"
     },
     {
         "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
+        "url": "https://github.com/imxiaolong",
         "icon": "gi gi-github"
     },
     {
         "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
+        "url": "https://weibo.com/imxiaolong/",
         "icon": "gi gi-weibo"
     }
 ]
