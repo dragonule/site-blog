@@ -15,7 +15,7 @@ enable_jsdelivr = {
 
 # 站点设置
 site_name = "学无止境"
-site_logo = "${static_prefix}location-png.png"
+site_logo = "${static_prefix}dragon-png.png"
 site_build_date = "2019-12-18T16:51+08:00"
 author = "老张"
 email = "i@aceact.com"
