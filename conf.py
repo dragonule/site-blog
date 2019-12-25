@@ -10,7 +10,7 @@ index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
     "enabled": False,
-    "repo": "imxiaolong/imxiaolong.github.io@gh-pages"
+    "repo": "imxiaolong/site-blog@gh-pages"
 }
 
 # 站点设置
