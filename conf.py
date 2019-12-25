@@ -9,7 +9,7 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 enable_jsdelivr = {
-    "enabled": False,
+    "enabled": True,
     "repo": "imxiaolong/site-blog@gh-pages"
 }
 
