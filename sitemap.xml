@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
 
     <url>
-        <loc>https://www.aceact.comabout/</loc>
+        <loc>https://blog.aceact.comabout/</loc>
         <lastmod>2017-06-28</lastmod>
         <changefreq>always</changefreq>
         <priority>0.8</priority>
@@ -14,7 +14,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
     <url>
-        <loc>https://www.aceact.comarchives/typography/</loc>
+        <loc>https://blog.aceact.comarchives/typography/</loc>
         <lastmod>2019-12-18</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
