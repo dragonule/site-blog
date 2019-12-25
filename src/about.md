@@ -2,14 +2,14 @@
 layout: page
 title: 关于
 slug: about
-date: 2017/06/28 17:26:00
+date: 2019/12/25 09:16:00
 status: publish
-author: AlanDecode
+author: 老张
 categories: 
-  - Maverick
-  - Dev
+  - Life
+
 tags: 
-  - theme
+  - Blog
 ---
 
 这里是我的个人博客，通过 GitHub 管理与构建。
@@ -17,6 +17,5 @@ tags:
 
 ## Contact
 
-Email: hi#imalan.cn (replace # with @)
+Email: i#aceact.com (replace # with @)
 
-Telegram：[AlanDecode](https://t.me/alandecode)
