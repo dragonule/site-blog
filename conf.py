@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "https://blog.aceact.com"
+site_prefix = "/site-blog/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -14,25 +14,21 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "我的个人博客"
+site_name = "老张个人博客"
 site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-18T16:51+08:00"
-author = "Eric"
+author = "老张"
 email = "i@aceact.com"
 author_homepage = "https://www.aceact.com"
-description = "只坚持一种正义。我的正义。"
-key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
+description = "学以致用，知行合一"
+key_words = ['English', 'Project', '项目管理', '英语']
 language = 'zh-CN'
 external_links = [
+    
     {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
-    },
-    {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
+        "name": "项目管理随笔",
+        "url": "https://www.aceact.com",
+        "brief": "个人博客。"
     }
 ]
 nav = [
