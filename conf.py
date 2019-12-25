@@ -26,7 +26,7 @@ language = 'zh-CN'
 external_links = [
     
     {
-        "name": "项目管理随笔",
+        "name": "知行合一",
         "url": "https://www.aceact.com",
         "brief": " "
     }
