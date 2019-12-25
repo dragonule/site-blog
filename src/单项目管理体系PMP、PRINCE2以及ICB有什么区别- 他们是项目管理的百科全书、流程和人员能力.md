@@ -1,4 +1,3 @@
-# 单项目管理体系PMP、PRINCE2以及ICB有什么区别? 他们是项目管理的百科全书、流程和人员能力
 学习单项目管理，目前主流的有三个体系：
 1. 美国项目管理协会(PMI)的PMP (Project Management Professional)
 2. 英国商务部(OGC)的受控环境下的项目管理PRINCE2 (Project in Controlled Environment)
