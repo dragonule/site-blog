@@ -12,5 +12,5 @@ tags:
   - GitHub
 excerpt: Hello World!
 ---
-感谢[熊猫小A](https://blog.imalan.cn/)，用他的Maverick 的静态博客生成器终于折腾成功了搭建在GitHub上的BLOG。
-教程很傻瓜式，但折腾好几回才成功，对自己的智商表示深深担忧。
+感谢[熊猫小A](https://blog.imalan.cn/)！得益于他的Maverick静态博客生成器，我在GitHub上搭建BLOG的愿望终于实现。
+他的教程很傻瓜式，但我折腾好几回才成功，对自己的智商表示深深担忧。
