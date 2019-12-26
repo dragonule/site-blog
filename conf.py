@@ -21,7 +21,7 @@ author = "老张"
 email = "i@aceact.com"
 author_homepage = "https://www.aceact.com"
 description = "学以致用，知行合一"
-key_words = ['English', 'Project', '项目管理', '英语']
+key_words = ['英语', '生活', '管理', '日常']
 language = 'zh-CN'
 external_links = [
     
