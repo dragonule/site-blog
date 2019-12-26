@@ -14,7 +14,7 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "学无止境"
+site_name = "老张个人博客"
 site_logo = "${static_prefix}dragon-png.png"
 site_build_date = "2019-12-18T16:51+08:00"
 author = "老张"
@@ -26,9 +26,9 @@ language = 'zh-CN'
 external_links = [
     
     {
-        "name": "知行合一",
+        "name": "老张学管理",
         "url": "https://www.aceact.com",
-        "brief": "项目管理学习笔记"
+        "brief": "管理学习笔记"
     }
 ]
 nav = [
