@@ -14,6 +14,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
     <url>
+        <loc>/archives/wordpress-to-typecho/</loc>
+        <lastmod>2020-01-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>/archives/new-building-blog/</loc>
         <lastmod>2019-12-26</lastmod>
         <changefreq>always</changefreq>

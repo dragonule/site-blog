@@ -1,6 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>老张个人博客</title><link>/</link><description>学以致用，知行合一</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}dragon-png.png</url><title>老张个人博客</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 26 Dec 2019 13:53:58 +0806</lastBuildDate><pubDate>Thu, 26 Dec 2019 13:53:58 +0806</pubDate><item><title>我的第一篇文章</title><link>/archives/my-first-awesome-post/</link><description>&lt;p&gt;感谢&lt;a href="https://blog.imalan.cn/"&gt;熊猫小A&lt;/a&gt;！得益于他的Maverick静态博客生成器，我在GitHub上搭建BLOG的愿望终于实现。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>老张个人博客</title><link>/</link><description>学以致用，知行合一</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>${static_prefix}dragon-png.png</url><title>老张个人博客</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 04 Jan 2020 03:45:59 +0806</lastBuildDate><pubDate>Sat, 04 Jan 2020 03:45:59 +0806</pubDate><item><title>我的第一篇文章</title><link>/archives/my-first-awesome-post/</link><description>&lt;p&gt;感谢&lt;a href="https://blog.imalan.cn/"&gt;熊猫小A&lt;/a&gt;！得益于他的Maverick静态博客生成器，我在GitHub上搭建BLOG的愿望终于实现。
 他的教程很傻瓜式，但我折腾好几回才成功，对自己的智商表示深深担忧。&lt;/p&gt;
 </description><author>i@aceact.com (老张)</author><guid isPermaLink="true">/archives/my-first-awesome-post/</guid><pubDate>Wed, 25 Dec 2019 09:25:00 +0806</pubDate></item><item><title>折腾博客，其乐无穷</title><link>/archives/new-building-blog/</link><description>&lt;p&gt;这几天买了域名和便宜的香港主机，折腾了一个基于WordPress的学习博客。&lt;/p&gt;
 &lt;p&gt;后来发现，原来还可以基于GitHub建静态博客，关键还不用买主机。但隐隐感觉这种博客还是不如自己买的主机靠谱，最重要的原因是自己对代码一窍不通，不知怎么折腾。&lt;/p&gt;
-</description><author>i@aceact.com (老张)</author><guid isPermaLink="true">/archives/new-building-blog/</guid><pubDate>Thu, 26 Dec 2019 21:25:00 +0806</pubDate></item></channel></rss>
+</description><author>i@aceact.com (老张)</author><guid isPermaLink="true">/archives/new-building-blog/</guid><pubDate>Thu, 26 Dec 2019 21:25:00 +0806</pubDate></item><item><title>从WordPress折腾到了Typecho</title><link>/archives/wordpress-to-typecho/</link><description>&lt;p&gt;感觉WordPress太臃肿了，而且主题太复杂,不懂代码实在太累。另外，收费主题功能太多太乱，所以决定尝试下Typecho.&lt;br&gt;
+让老薛主机帮忙装了Typecho，一切很顺利。&lt;br&gt;
+第一次用Typecho,感觉比WordPress轻巧太多，感觉比较适合自己。&lt;br&gt;
+另外，Typecho的主题好像普遍比WordPress要便宜，买了Handsome,还是挺满意的。&lt;/p&gt;
+&lt;p&gt;几点需注意的记录下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;永久链接/{category}/{slug}.html】更能符合SEO优化的特点。&lt;/li&gt;
+&lt;li&gt;需要在要目录下放一个.htaccess 文件解决地址中有index.php的问题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;RewriteEngine On 
+RewriteBase / 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule (.*) https://%{SERVER_NAME}/$1 [R=301,L]
+RewriteCond %{HTTP_HOST}!^aceact.com$ [NC]
+RewriteRule ^(.*)$ http://www.aceact.com/$1 [L,R=301]&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;需要在要目录下放一个robots.txt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;User-agent: *
+Disallow: /admin/
+Disallow:/install/
+sitemap:https://www.xxxxxx.com/sitemap.xml&lt;/code&gt;&lt;/pre&gt;
+</description><author>i@aceact.com (老张)</author><guid isPermaLink="true">/archives/wordpress-to-typecho/</guid><pubDate>Wed, 01 Jan 2020 09:25:00 +0806</pubDate></item></channel></rss>
