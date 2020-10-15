@@ -14,7 +14,7 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "小龙个人博客"
+site_name = "小龙博客"
 site_logo = "${static_prefix}dragon-png.png"
 site_build_date = "2019-12-18T16:51+08:00"
 author = "小龙"
@@ -26,9 +26,9 @@ language = 'zh-CN'
 external_links = [
     
     {
-        "name": "小龙笔记",
+        "name": "知行合一",
         "url": "https://www.aceact.com",
-        "brief": "项目管理学习"
+        "brief": "项目管理学习笔记"
     }
 ]
 nav = [
