@@ -26,9 +26,9 @@ language = 'zh-CN'
 external_links = [
     
     {
-        "name": "知行合一",
+        "name": "追光者",
         "url": "https://www.aceact.com",
-        "brief": "项目管理学习笔记"
+        "brief": "管理学习笔记"
     }
 ]
 nav = [
