@@ -14,6 +14,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
     <url>
+        <loc>/archives/20210601-update/</loc>
+        <lastmod>2021-06-01</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>/archives/novel_coronavirus_protection_manual/</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>always</changefreq>
