@@ -26,7 +26,7 @@ language = 'zh-CN'
 external_links = [
     
     {
-        "name": "随遇而安",
+        "name": "随遇而安ACEACT.COM",
         "url": "https://www.aceact.com",
         "brief": "管理学习笔记"
     }
