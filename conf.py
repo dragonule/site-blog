@@ -20,13 +20,13 @@ site_build_date = "2019-12-18T16:51+08:00"
 author = "老张"
 email = "myaceact@outlook.com"
 author_homepage = "https://www.aceact.com"
-description = "学以致用，知行合一"
+description = "知易行难，知行合一"
 key_words = ['英语', '生活', '管理', '日常']
 language = 'zh-CN'
 external_links = [
     
     {
-        "name": "追光者",
+        "name": "随遇而安",
         "url": "https://www.aceact.com",
         "brief": "管理学习笔记"
     }
